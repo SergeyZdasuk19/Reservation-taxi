@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainMenu > div > ul > li > a {
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: large;
+    padding: 0 15px 0 15px;
+
+}
+
+.mainMenu li:hover {
+    background: #b19891;
+}
+
+.mainMenu > div > ul > li {
+    padding: 30px 1px 20px 15px;
+}
+
+
+
+.emblem > img {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.accaunt > button {
+    margin-left: 15%;
+    margin-top: 20px;
+
+    margin-bottom: 2%;
+}
+.blockTwo{
+    height: auto;
+}
+.tableOne{
+    margin-top: 15%;
+}

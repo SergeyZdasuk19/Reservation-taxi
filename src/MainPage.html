@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link href="Main.css" rel="stylesheet">
+    <link href="bootstrap-grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="Main.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 emblem" style="background-color: yellow">
+            <img src="images/frontal-taxi-cab.png">
+        </div>
+        <div class="col-sm-6 menu" style="background-color: #6c757d">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mainMenu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2"
+                        aria-controls="navbar2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar2">
+                    <ul class="navbar-nav mr-auto">
+                        <li><a href="#">Поиск</a></li>
+                        <li><a href="#">О сервисе</a></li>
+                        <li><a href="#">Перевозчикам</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-sm-3 accaunt" style="background-color: yellow" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="btn btn-outline-success ">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                Личный кабинет
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row blockTwo" style="background-color: green">
+        <div class="col-sm-4" style="background-color: #34383b">
+            <table class="tableOne">
+                <tr>
+                    <td style="text-align: center;">
+                        <canvas id="canvas_tt5ca67c5aaf85a" width="200" height="200"></canvas>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; font-weight: bold"><a
+                            href="//24timezones.com/ru_vremia/minsk_mestnoe_vremia.php" style="text-decoration: none"
+                            class="clock24"
+                            id="tz24-1554414682-c1285-eyJzaXplIjoiMjAwIiwiYmdjb2xvciI6IkZGRkY5OSIsImxhbmciOiJydSIsInR5cGUiOiJhIiwiY2FudmFzX2lkIjoiY2FudmFzX3R0NWNhNjdjNWFhZjg1YSJ9"
+                            title="Минск точное время" target="_blank" rel="nofollow"></a></td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="col-sm-8" style="background-color: #34383b">
+            <img src="images/такси3.jpg" class="img-fluid" style="height: auto;width: 880px">
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
+
+</body>
+</html>
